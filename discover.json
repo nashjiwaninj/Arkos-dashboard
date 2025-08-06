@@ -1,0 +1,82 @@
+[
+  {
+    "title": "HF Chat (Mistral)",
+    "description": "Chat via Mistral model",
+    "api_url": "https://api-inference.huggingface.co/models/mistralai/mistral-large-latest",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "chat"
+  },
+  {
+    "title": "DeepAI TextGen",
+    "description": "Generate text via DeepAI",
+    "api_url": "https://api.deepai.org/api/text-generator",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "text"
+  },
+  {
+    "title": "Lorem Picsum Image",
+    "description": "Random image from Picsum",
+    "api_url": "https://picsum.photos/400/300",
+    "api_method": "GET",
+    "auth_required": false,
+    "category": "image"
+  },
+  {
+    "title": "Unsplash Random Photo",
+    "description": "Free random photo from Unsplash",
+    "api_url": "https://api.unsplash.com/photos/random",
+    "api_method": "GET",
+    "auth_required": true,
+    "category": "image"
+  },
+  {
+    "title": "OpenRouter Chat",
+    "description": "Chat via OpenRouter free API",
+    "api_url": "https://openrouter.ai/assistant/chat",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "chat"
+  },
+  {
+    "title": "Cohere Summarizer",
+    "description": "Text summarization via Cohere",
+    "api_url": "https://api.cohere.ai/v1/summarize",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "text"
+  },
+  {
+    "title": "AssemblyAI STT",
+    "description": "Speech‑to‑text via AssemblyAI",
+    "api_url": "https://api.assemblyai.com/v2/transcript",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "voice"
+  },
+  {
+    "title": "DeepAI Image Gen",
+    "description": "DeepAI text‑to‑image",
+    "api_url": "https://api.deepai.org/api/text2img",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "image"
+  },
+  {
+    "title": "Mistral CodeGen",
+    "description": "Code generation via Mistral",
+    "api_url": "https://api-inference.huggingface.co/models/mistralai/mistral-codegen",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "code"
+  },
+  {
+    "title": "Flux Image (HF)",
+    "description": "Flux text‑to‑image model",
+    "api_url": "https://api-inference.huggingface.co/models/black-forest-labs/FLUX.1",
+    "api_method": "POST",
+    "auth_required": true,
+    "category": "image"
+  }
+]
